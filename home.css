@@ -1,0 +1,107 @@
+body {
+    font-family: 'Sequel100Black-75', sans-serif;
+    /* Use the font with a fallback to a generic font family like 'sans-serif' */
+}
+
+.gradOverlay {
+    height: 611px;
+    width: 1440px;
+    border: 1px solid red;
+    background: url('background.png');
+    /* filter: brightness(50%); */
+    
+}
+
+.mettleImg {
+    height: 80px;
+    width: 80px;
+    margin-top: 15px;
+    margin-left: 200px;
+}
+
+.frame4 {
+    height: 112px;
+    width: 1440px;
+    border: 1px solid blue;
+    display: flex;
+}
+
+#home {
+    margin-left: 400px;
+    margin-top: 50px;
+}
+
+#about {
+    margin-left: 40px;
+    margin-top: 50px;
+}
+
+#events {
+    margin-left: 40px;
+    margin-top: 50px;
+}
+
+#workshops {
+    margin-left: 40px;
+    margin-top: 50px;
+}
+
+#schedule {
+    margin-left: 40px;
+    margin-top: 50px;
+}
+
+#contact {
+    margin-left: 40px;
+    margin-top: 50px;
+}
+
+.mettle23 {
+    margin-left: 329px;
+}
+
+.welcometo {
+    margin-left: 400px;
+    font-size: 20px;
+}
+
+.mettle {
+    font-size: 96px;
+    color: rgba(229, 57, 72, 1);
+    margin-top: 0px;
+    margin-left: 143px;
+    line-height: 115.2px;
+    margin-bottom: 0px;
+}
+
+.annual {
+    font-size: 20px;
+    margin-left: 100px;
+    margin-top: 0px;
+}
+
+.nitt {
+    font-size: 20px;
+    margin-left: 180px;
+}
+
+.register {
+    margin-left: 150px;
+    height: 48px;
+    width: 284px;
+    padding: 14px, 29px, 14px, 29px;
+    gap: 8px;
+    background-color: rgba(229, 57, 72, 1);
+    border-color: rgba(229, 57, 72, 1);
+}
+
+.checkout {
+    width: 332px;
+    height: 48px;
+    color: rgba(229, 57, 72, 1);
+    padding: 14px, 29px, 14px, 29px;
+    gap: 8px;
+    background-color: black;
+    border: 1px solid rgba(229, 57, 72, 1);
+}
+

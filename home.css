@@ -5,12 +5,15 @@ body {
 
 .gradOverlay {
     height: 611px;
-    width: 1440px;
-    border: 1px solid red;
+    /* width: 1440px; */
+    /* border: 1px solid red; */
     background: url('background.png');
+    margin-bottom: 0px;
     /* filter: brightness(50%); */
-    
 }
+
+
+
 
 .mettleImg {
     height: 80px;
@@ -22,7 +25,7 @@ body {
 .frame4 {
     height: 112px;
     width: 1440px;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     display: flex;
 }
 
@@ -101,7 +104,158 @@ body {
     color: rgba(229, 57, 72, 1);
     padding: 14px, 29px, 14px, 29px;
     gap: 8px;
-    background-color: black;
+    background-color: transparent;
     border: 1px solid rgba(229, 57, 72, 1);
 }
 
+.brandText {
+    font-size: 40px;
+    line-height: 48px;
+    display: flex;
+    justify-content: center;
+    /* margin-top: 20px; */
+    margin-bottom: 20px;
+}
+
+.brands {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+.brand {
+    height: 128px;
+    width: 192px;
+    border-radius: 24px;
+    border: 1px;
+    padding: 22px, 33px, 22px, 33px;
+    background-color: rgba(117, 106, 108, 0.4);
+}
+
+.getintouch {
+    font-size: 32px;
+    margin-left: 100px;
+}
+
+.name {
+    border: 1px solid rgba(229, 85, 97, 1);
+    width: 455px;
+    height: 32px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+.email {
+    border: 1px solid rgba(229, 85, 97, 1);
+    width: 455px;
+    height: 32px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.message {
+    border: 1px solid rgba(229, 85, 97, 1);
+    width: 455px;
+    height: 112px;
+    border-radius: 4px;
+    margin-bottom: 0px;
+}
+
+.teamup {
+    width: 148px;
+    height: 48px;
+    padding: 14px, 29px, 14px, 29px;
+    gap: 8px;
+    background-color: rgba(229, 57, 72, 1);
+    border-color: rgba(229, 57, 72, 1);
+    margin-left: 150px;
+    margin-bottom: 20px;    
+}
+
+.input {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 550px;
+}
+
+.frame12 {
+    background-color: black;
+    margin-top: 0px;
+}
+
+.rectangle13 {
+    height: 534px;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+
+.discover {
+    font-size: 40px;
+    line-height: 48px;
+    display: flex;
+    justify-self: center;
+    margin-left: 450px;
+    color: rgba(229, 85, 97, 1);
+}
+
+.fractals {
+    color: rgba(255, 249, 250, 1);
+}
+
+.registermettle {
+    height: 48px;
+    width: 284px;
+    gap: 8px;
+    background-color: rgba(229, 85, 97, 1);
+    margin-left: 630px;
+    margin-top: 100px;
+}
+
+.clock {
+    font-size: 2em;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+#hours {
+    font-size: 100px;
+}
+
+#minutes {
+    font-size: 100px;
+}
+
+#seconds {
+    font-size: 100px;
+}
+
+.footer {
+    height: 326px;
+}
+
+.combinedd {
+    display: flex;
+    gap: 100px;
+    color: rgba(229, 85, 97, 1);
+}
+
+.support {
+    height: 52px;
+    width: 285px;
+    gap: 8px;
+    background-color: rgba(79, 202, 93, 1);
+}
+
+.i2023 {
+    margin-left: 20px;
+}
+
+.footer {
+    display: flex;
+    gap: 200px;
+    justify-content: space-around;
+    margin-top: 100px;
+}
